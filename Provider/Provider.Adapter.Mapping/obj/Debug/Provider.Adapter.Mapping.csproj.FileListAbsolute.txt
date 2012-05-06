@@ -1,5 +1,0 @@
-C:\SVN\Provider\Provider\Provider.Adapter.Mapping\bin\Debug\Provider.Adapter.Mapping.dll
-C:\SVN\Provider\Provider\Provider.Adapter.Mapping\bin\Debug\Provider.Adapter.Mapping.pdb
-C:\SVN\Provider\Provider\Provider.Adapter.Mapping\obj\Debug\ResolveAssemblyReference.cache
-C:\SVN\Provider\Provider\Provider.Adapter.Mapping\obj\Debug\Provider.Adapter.Mapping.dll
-C:\SVN\Provider\Provider\Provider.Adapter.Mapping\obj\Debug\Provider.Adapter.Mapping.pdb
