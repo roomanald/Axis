@@ -1,7 +1,0 @@
-C:\SVN\Provider\Provider\Provider\bin\Debug\Provider.dll
-C:\SVN\Provider\Provider\Provider\bin\Debug\Provider.pdb
-C:\SVN\Provider\Provider\Provider\obj\Debug\ResolveAssemblyReference.cache
-C:\SVN\Provider\Provider\Provider\obj\Debug\Provider.dll
-C:\SVN\Provider\Provider\Provider\obj\Debug\Provider.pdb
-C:\SVN\Provider\Provider\Provider\bin\Debug\System.Reactive.dll
-C:\SVN\Provider\Provider\Provider\bin\Debug\System.Reactive.xml
