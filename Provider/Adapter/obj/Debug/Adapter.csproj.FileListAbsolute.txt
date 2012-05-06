@@ -1,9 +1,0 @@
-C:\SVN\Provider\Provider\Adapter\bin\Debug\Provider.dll
-C:\SVN\Provider\Provider\Adapter\bin\Debug\System.Reactive.dll
-C:\SVN\Provider\Provider\Adapter\bin\Debug\Provider.pdb
-C:\SVN\Provider\Provider\Adapter\bin\Debug\System.Reactive.xml
-C:\SVN\Provider\Provider\Adapter\obj\Debug\ResolveAssemblyReference.cache
-C:\SVN\Provider\Provider\Adapter\bin\Debug\Provider.Adapter.dll
-C:\SVN\Provider\Provider\Adapter\bin\Debug\Provider.Adapter.pdb
-C:\SVN\Provider\Provider\Adapter\obj\Debug\Provider.Adapter.dll
-C:\SVN\Provider\Provider\Adapter\obj\Debug\Provider.Adapter.pdb
