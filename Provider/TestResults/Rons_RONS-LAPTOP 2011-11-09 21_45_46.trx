@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="27361e0d-62ff-4ac4-9ebd-5daac479f642" name="Rons@RONS-LAPTOP 2011-11-09 21:45:46" runUser="RONS-LAPTOP\Rons" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9d109aa8-e8a6-43f2-9695-8cf2b7bf74e0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Rons_RONS-LAPTOP 2011-11-09 21_45_46">
+      <DeploymentItem filename="C:\SVN\ThirdParty\Reactive\System.Reactive.dll" />
+      <DeploymentItem filename="C:\SVN\Provider\Provider\Provider\bin\Debug\Provider.dll" />
+      <DeploymentItem filename="C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.Yahoo.Finance.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-09T21:45:46.0540303+00:00" queuing="2011-11-09T21:45:52.5204002+00:00" start="2011-11-09T21:45:53.6024621+00:00" finish="2011-11-09T21:46:26.8473636+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\svn\provider\provider\provider.yahoo.finance.test\bin\debug\provider.yahoo.finance.test.dll" id="ffbc5171-765c-e5fd-d862-53a57b427d9b">
+      <Execution id="523f73e5-07f4-4308-9d29-8d73b367ea73" />
+      <TestMethod codeBase="C:/SVN/Provider/Provider/Provider.Yahoo.Finance.Test/bin/Debug/Provider.Yahoo.Finance.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Provider.Yahoo.Finance.Test.UnitTest1, Provider.Yahoo.Finance.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ffbc5171-765c-e5fd-d862-53a57b427d9b" executionId="523f73e5-07f4-4308-9d29-8d73b367ea73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="523f73e5-07f4-4308-9d29-8d73b367ea73" testId="ffbc5171-765c-e5fd-d862-53a57b427d9b" testName="TestMethod1" computerName="RONS-LAPTOP" duration="00:00:24.5624725" startTime="2011-11-09T21:45:54.5875184+00:00" endTime="2011-11-09T21:46:25.9603128+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="523f73e5-07f4-4308-9d29-8d73b367ea73">
+      <Output>
+        <StdOut>Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue
+Provider.Yahoo.Finance.YahooFinanceValue</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

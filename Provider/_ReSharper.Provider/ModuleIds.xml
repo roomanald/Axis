@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="016AF610-698D-4245-9E19-E88808A2105B" ModuleId="Provider" />
+  <Module PersistentId="1AC56492-7837-4705-9504-63664DCCA944" ModuleId="Adapter" />
+  <Module PersistentId="D3DFF925-2520-4E7D-A337-A89F8E418F68" ModuleId="Provider.Adapter.Mapping" />
+</Modules>

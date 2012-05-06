@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f894b40c-5f44-4ebe-a81b-eb0b84c8f55a" name="Rons@RONS-LAPTOP 2011-11-09 21:35:44" runUser="RONS-LAPTOP\Rons" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9d109aa8-e8a6-43f2-9695-8cf2b7bf74e0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Rons_RONS-LAPTOP 2011-11-09 21_35_44">
+      <DeploymentItem filename="C:\SVN\ThirdParty\Reactive\System.Reactive.dll" />
+      <DeploymentItem filename="C:\SVN\Provider\Provider\Provider\bin\Debug\Provider.dll" />
+      <DeploymentItem filename="C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.Yahoo.Finance.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-09T21:35:44.6799685+00:00" queuing="2011-11-09T21:35:51.3199778+00:00" start="2011-11-09T21:35:52.3799793+00:00" finish="2011-11-09T21:36:08.9176025+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RONS-LAPTOP" outcome="Error" timestamp="2011-11-09T21:36:08.8976025+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\svn\provider\provider\provider.yahoo.finance.test\bin\debug\provider.yahoo.finance.test.dll" id="ffbc5171-765c-e5fd-d862-53a57b427d9b">
+      <Execution id="47d41af7-a762-486b-a4a8-913535fd9ac6" />
+      <TestMethod codeBase="C:/SVN/Provider/Provider/Provider.Yahoo.Finance.Test/bin/Debug/Provider.Yahoo.Finance.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Provider.Yahoo.Finance.Test.UnitTest1, Provider.Yahoo.Finance.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ffbc5171-765c-e5fd-d862-53a57b427d9b" executionId="47d41af7-a762-486b-a4a8-913535fd9ac6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="47d41af7-a762-486b-a4a8-913535fd9ac6" testId="ffbc5171-765c-e5fd-d862-53a57b427d9b" testName="TestMethod1" computerName="RONS-LAPTOP" duration="00:00:15.8476223" startTime="2011-11-09T21:35:53.0699802+00:00" endTime="2011-11-09T21:36:08.9176025+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47d41af7-a762-486b-a4a8-913535fd9ac6">
+    </UnitTestResult>
+  </Results>
+</TestRun>
