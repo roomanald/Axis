@@ -1,9 +1,0 @@
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\obj\Debug\ResolveAssemblyReference.cache
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.Yahoo.Finance.dll
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.Yahoo.Finance.pdb
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.dll
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\Provider.pdb
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\obj\Debug\Provider.Yahoo.Finance.dll
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\obj\Debug\Provider.Yahoo.Finance.pdb
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\System.Reactive.dll
-C:\SVN\Provider\Provider\Provider.Yahoo.Finance\bin\Debug\System.Reactive.xml
