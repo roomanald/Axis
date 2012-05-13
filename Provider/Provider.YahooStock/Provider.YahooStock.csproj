@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{016AF610-698D-4245-9E19-E88808A2105B}</ProjectGuid>
+    <ProjectGuid>{7E40D774-CF31-412B-8FBC-2838B6AB9C25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Provider</RootNamespace>
-    <AssemblyName>Provider</AssemblyName>
+    <RootNamespace>Provider.YahooStock</RootNamespace>
+    <AssemblyName>Provider.YahooStock</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,11 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Reactive, Version=1.0.10621.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ThirdParty\Reactive\System.Reactive.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,15 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRefCountSubscriber.cs" />
-    <Compile Include="IValue.cs" />
-    <Compile Include="IKey.cs" />
-    <Compile Include="IPublisherComponent.cs" />
-    <Compile Include="ISubscriberComponent.cs" />
-    <Compile Include="ObservableExt.cs" />
+    <Compile Include="YahooStockSubscriberComponent.cs" />
+    <Compile Include="IYahooStockKey.cs" />
+    <Compile Include="IYahooStockValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provider.cs" />
-    <Compile Include="RefCountSubscriber.cs" />
+    <Compile Include="YahooStockPublisherComponent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Provider\Provider.csproj">
+      <Project>{016AF610-698D-4245-9E19-E88808A2105B}</Project>
+      <Name>Provider</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

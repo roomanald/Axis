@@ -5,10 +5,11 @@ using System.Text;
 
 namespace Provider
 {
-    public interface IPublisherComponent<TKey, TValue>
+    public interface IPublisherComponent<TKey, TValue> : IDisposable 
         where TKey : IKey
         where TValue : IValue
     {
         void Publish(TKey key, TValue value);
+        
     }
 }
